@@ -1,0 +1,576 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.main {
+
+    width: 100%;
+
+}
+
+.bar {
+
+    background-color: rgb(211, 209, 209);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#p1 {
+
+    padding: 0rem 1rem;
+    border-right: 1px solid black;
+}
+
+#p2 {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    border-right: 1px solid black;
+}
+
+#p2 i {
+
+    padding-right: 10px;
+}
+
+#p3 {
+
+    display: flex;
+    padding: 0rem 1rem;
+    border-right: 1px solid black;
+}
+
+.navbar {
+
+    display: flex;
+
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    height: 150px;
+}
+
+.search {
+
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* border: 2px solid red; */
+
+
+}
+
+#search input {
+
+    width: 700px;
+    padding: 1rem 0.5rem;
+    border-radius: 1.5rem;
+    border: none;
+    text-align: left;
+    box-shadow: 2px 2px 12px 0px grey;
+}
+
+#tags {
+
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+#tags a {
+
+    text-decoration: none;
+    padding: 0rem 1rem;
+    color: black;
+}
+
+#tags a:hover {
+
+    color: red;
+}
+
+
+
+.logo {
+
+    position: relative;
+    left: 2rem;
+    top: 0rem;
+    /* border: 2px solid green; */
+    height: 150px;
+    padding: 0.5rem 0rem;
+}
+
+.logo img {
+    height: 140px;
+    object-fit: cover;
+}
+
+.icons {
+
+    /* border: 2px solid orange; */
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    right: 5rem;
+
+}
+
+#one {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 12px 0px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 1rem;
+    cursor: pointer;
+}
+
+#four {
+
+    display: flex;
+    position: relative;
+    top: 1rem;
+    left: 4rem;
+}
+
+.ic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 12px 0px grey;
+    margin-right: 0.2rem;
+    cursor: pointer;
+}
+
+#first i {
+    color: red;
+
+}
+
+#second i {
+    color: blue;
+
+}
+
+#third i {
+    color: skyblue;
+
+}
+
+#fourth i {
+    color: skyblue;
+
+}
+
+#four i {
+
+    font-size: 1.5rem;
+}
+
+
+.navbar::after {
+    content: "";
+    background: url(https://www.kamaliakhaddar.pk/upload/slider/1667903041.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 12rem;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+
+
+
+}
+
+
+.animationcircle {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 30rem;
+}
+
+.topheading {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+}
+
+.circle {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0rem 1rem;
+
+    scale: 1;
+    opacity: 0.6;
+    cursor: pointer;
+
+
+
+
+
+
+}
+
+
+#circle1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B70000;
+    color: white;
+    opacity: 1;
+
+
+}
+
+
+#circle1 h2 {
+
+    text-align: center;
+    font-weight: 100;
+}
+
+
+
+
+
+.circle img {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+
+
+
+}
+
+.circles {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+
+.live {
+    background-color: rgb(209, 207, 207);
+    margin-top: 5rem;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.live h3 {
+
+    padding: 0rem 1rem;
+}
+
+.live i {
+
+    padding: 0rem 1rem;
+}
+
+
+.grid {
+    width: 1260px;
+    ;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    margin-top: 2rem;
+}
+
+.box {
+
+    /* background-color: green; */
+    /* border: 2px solid black; */
+    box-shadow: 2px 12px 12px 0px grey;
+    width: 100%;
+    height: 100%;
+    margin-right: 2rem;
+    border-radius: 0.3rem;
+}
+
+.top {
+
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    box-shadow: 2px 2px 6px 0px grey;
+    cursor: pointer;
+    border-radius: 0.3rem;
+
+}
+
+.img {
+
+    width: 100%;
+    height: 90%;
+}
+
+.img img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.3rem;
+}
+
+.cart {
+    height: 10%;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon {
+
+    display: none;
+}
+
+.plus {
+
+    display: flex;
+}
+
+.bottom {
+
+    padding: 2rem 0.3rem;
+}
+
+.para {
+
+    display: flex;
+    margin-top: 0.3rem;
+}
+
+#f1 {
+    padding: 0rem 0.3rem 0rem 0rem;
+    border-right: 1px solid grey;
+}
+
+#f2 {
+    padding: 0rem 0.3rem;
+    /* border-right: 1px solid grey; */
+}
+
+.down {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+
+    color: #B70000;
+}
+
+#btn1 {
+    box-sizing: border-box;
+    padding: 0.3rem 0.3rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+
+}
+
+
+
+
+#btn1:hover {
+
+    color: black;
+    background-color: white;
+    /* font-size: 0.1rem; */
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+
+
+.money {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    height: 100px;
+    margin-top: 3rem;
+
+}
+
+.money h2 i {
+
+    font-weight: 100;
+}
+
+
+.what {
+
+    position: fixed;
+    top: 86%;
+    left: 97%;
+}
+
+.wh {
+
+    background-color: white;
+    margin-bottom: 0.2rem;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 8px 0px grey;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.mes {
+
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 8px 0px grey;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.wh i {
+
+    color: green;
+    font-size: 1.5rem;
+}
+
+.mes i {
+
+    color: black;
+    font-size: 1.5rem;
+}
+
+.grid2 {
+    margin-top: 5rem;
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+
+}
+
+.scan1 {
+
+    width: 200px;
+    height: 200px;
+    margin-right: 1rem;
+}
+
+.scan1 img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.scan2 {
+
+    width: 200px;
+    height: 200px;
+
+}
+
+.scan2 img {
+
+    width: 100%;
+    height: 100%;
+}
+
+.portion {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.portion2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width:1185px) {
+
+
+    .navbar {
+
+        flex-direction: column;
+    }
+
+    #tags {
+
+        display: none;
+    }
+
+    .icons {
+
+        position: absolute;
+        top: 2rem;
+        left: 1rem;
+    }
+
+}
